@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermercado>
+    <nombre>DIA</nombre>
+    <datos>
+        <direccion>
+            <calle>Rio Tajo</calle>
+            <numero>256</numero>
+            <CP>28991</CP>
+            <municipio>Torrejon de la Calzada</municipio>
+            <provincia>Madrid</provincia>
+            <geolocalizacion>40º27'28.508 N</geolocalizacion>
+            <geolocalizacion>3º28'0.841 O</geolocalizacion>
+        </direccion>
+        <telefono>918141156</telefono>
+        <web>dia.es</web>
+    </datos>
+    <secciones>
+        <seccion>Alimentacion</seccion>
+        <departamentos>
+            <nombre_dep>Fruteria</nombre_dep>
+            <productos>
+                <nombre>platano</nombre>
+                <descripcion>platano de Canarias</descripcion>
+                <precio>2</precio>
+                <unidades_stock>30</unidades_stock>
+                <medida>kg</medida>
+                <envase>granel</envase>
+                <oferta>
+                    <activa>true</activa>
+                    <descuento>-25%</descuento>
+                    <periodo_oferta>
+                        <inicio>20-09-2023 10:00 a.m</inicio>
+                        <fin>28-09-2023 23:00 p.m.</fin>
+                    </periodo_oferta>
+                </oferta>
+                <habitual>false</habitual>
+                <cesta>true</cesta>
+            </productos>
+            <productos>
+                <nombre>fresas</nombre>
+                <descripcion>fresas de Extremadura</descripcion>
+                <precio>1</precio>
+                <unidades_stock>80</unidades_stock>
+                <medida>kg</medida>
+                <envase>granel</envase>
+                <oferta>
+                    <activa>false</activa>
+                    <descuento>-15%</descuento>
+                    <periodo_oferta>
+                        <inicio>10-03-2023 12:00 a.m</inicio>
+                        <fin>28-04-2023 18:00 p.m.</fin>
+                    </periodo_oferta>
+                </oferta>
+                <habitual>true</habitual>
+                <cesta>true</cesta>
+            </productos>
+        </departamentos>
+        <departamentos>
+            <nombre_dep>Pescaderia</nombre_dep>
+            <productos>
+                <nombre>bacalao</nombre>
+                <descripcion>bacalao salvaje</descripcion>
+                <precio>8</precio>
+                <unidades_stock>5</unidades_stock>
+                <medida>kg</medida>
+                <envase>unidad</envase>
+                <oferta>
+                    <activa>false</activa>
+                    <descuento>-5%</descuento>
+                    <periodo_oferta>
+                        <inicio>5-08-2023 12:00 a.m</inicio>
+                        <fin>28-10-2023 18:00 p.m.</fin>
+                    </periodo_oferta>
+                </oferta>
+                <habitual>true</habitual>
+                <cesta>false</cesta>
+            </productos>
+            <productos>
+                <nombre>merluza</nombre>
+                <descripcion>merlluza de piscifactoria</descripcion>
+                <precio>10</precio>
+                <unidades_stock>3</unidades_stock>
+                <medida>kg</medida>
+                <envase>unidad</envase>
+                <oferta>
+                    <activa>false</activa>
+                    <descuento>2x1</descuento>
+                    <periodo_oferta>
+                        <inicio>15-08-2023 10:00 a.m</inicio>
+                        <fin>30-10-2023 18:00 p.m.</fin>
+                    </periodo_oferta>
+                </oferta>
+                <habitual>false</habitual>
+                <cesta>false</cesta>
+            </productos>
+        </departamentos>
+    </secciones>
+    <secciones>
+        <seccion>Menaje</seccion>
+        <departamentos>
+            <nombre_dep>Hogar</nombre_dep>
+            <productos>
+                <nombre>servilletas</nombre>
+                <descripcion>servilletas de papel doble capa</descripcion>
+                <precio>1.5</precio>
+                <unidades_stock>110</unidades_stock>
+                <medida>unidad</medida>
+                <envase>unidad</envase>
+                <oferta>
+                    <activa>false</activa>
+                    <descuento>2x1</descuento>
+                    <periodo_oferta>
+                        <inicio>20-09-2023 10:00 a.m</inicio>
+                        <fin>28-09-2023 23:00 p.m.</fin>
+                    </periodo_oferta>
+                </oferta>
+                <habitual>false</habitual>
+                <cesta>true</cesta>
+            </productos>
+            <productos>
+                <nombre>lejia</nombre>
+                <descripcion>lejia densa perfumada</descripcion>
+                <precio>0.5</precio>
+                <unidades_stock>200</unidades_stock>
+                <medida>unidad</medida>
+                <envase>unidad</envase>
+                <oferta>
+                    <activa>false</activa>
+                    <descuento>-45%</descuento>
+                    <periodo_oferta>
+                        <inicio>10-03-2023 12:00 a.m</inicio>
+                        <fin>28-04-2023 18:00 p.m.</fin>
+                    </periodo_oferta>
+                </oferta>
+                <habitual>true</habitual>
+                <cesta>false</cesta>
+            </productos>
+        </departamentos>
+        <departamentos>
+            <nombre_dep>Electronica</nombre_dep>
+            <productos>
+                <nombre>television</nombre>
+                <descripcion>television de 85 pulgadas, plana</descripcion>
+                <precio>1500</precio>
+                <unidades_stock>56</unidades_stock>
+                <medida>unidad</medida>
+                <envase>unidad</envase>
+                <oferta>
+                    <activa>false</activa>
+                    <descuento>-20%</descuento>
+                    <periodo_oferta>
+                        <inicio>20-09-2023 10:00 a.m</inicio>
+                        <fin>28-09-2023 23:00 p.m.</fin>
+                    </periodo_oferta>
+                </oferta>
+                <habitual>false</habitual>
+                <cesta>true</cesta>
+            </productos>
+            <productos>
+                <nombre>telefono</nombre>
+                <descripcion>telefono iphone 8 plus</descripcion>
+                <precio>850</precio>
+                <unidades_stock>50</unidades_stock>
+                <medida>unidad</medida>
+                <envase>unidad</envase>
+                <oferta>
+                    <activa>false</activa>
+                    <descuento>-45%</descuento>
+                    <periodo_oferta>
+                        <inicio>10-03-2023 12:00 a.m</inicio>
+                        <fin>28-04-2023 18:00 p.m.</fin>
+                    </periodo_oferta>
+                </oferta>
+                <habitual>true</habitual>
+                <cesta>false</cesta>
+            </productos>
+        </departamentos>
+    </secciones>
+</supermercado>
